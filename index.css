@@ -1,0 +1,340 @@
+body {
+    font-family: sans-serif;
+    padding:0;
+    margin: 0;
+}
+.header-html{
+    padding : 0px 200px;
+}
+.top {
+    width:100%;
+    padding: 20px;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    position : fixed;
+    left: 0px; 
+    
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+    width:280px;
+  
+    
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.docplanner {
+    color : rgb(33, 206, 177);
+    font-size:27px;
+    margin:0px;
+    
+}
+.group {
+    color : rgb(172, 180, 179);
+    font-size: 27px;
+    margin:0;
+
+}
+a {
+    text-decoration: none;
+    color:  rgb(172, 180, 179);
+}
+.button {
+display: flex;
+width :250px;
+justify-content: space-around;
+font-size: 15px;
+}
+.about{
+    color:rgb(30, 180, 135);
+}
+.button :hover{
+    color: rgb(30, 180, 135);
+}
+.title {
+    padding:100px 50px 2px 50px;
+    width:850px;
+    display :flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ttl {
+    width:100%;
+    text-align: center;
+    padding :7px;
+    font-size: 33px;
+    color: rgb(30, 180, 135);
+    
+}
+.paragraph {
+    display: flex;
+    padding : 2px 200px;
+    color:  rgb(108, 110, 110);
+    height: 150px;
+}
+.patients {
+    display : flex;
+    flex-grow:1;
+    width:30%;
+    justify-items: center;
+    padding:1px 10px;
+    height: 100%;
+}
+.patient {
+    line-height: 1.8;
+    margin :0px;
+    height: 100%;
+}
+.doctors {
+    display: flex;
+    flex-grow:1;
+    width:30%;
+    height: 100%;
+    padding: 1px 10px;
+}
+.doctor {
+    line-height: 1.8;
+    margin : 0px;
+    height: 100%;
+}
+.computer {
+    display:flex;
+    justify-content: space-around;
+    padding : 1px 200px;
+    height: 390px;
+
+}
+.for{
+    color:rgb(201, 197, 197);
+}
+.descr{
+    color:white;
+    font-size : 26px;
+    margin :0px 50px 0px 0px;
+}
+.descr-d{
+    color:white;
+    font-size : 26px;
+    margin: 0px 50px 0px 0px;
+}
+.for-patients{
+   background-color: rgb(32, 194, 172);
+   border-radius: 10px;
+   width: 440px;
+   padding: 15px 0px 15px 15px;
+
+}
+.for-doctors{
+    background-color: rgb(55, 132, 196);
+    border-radius: 10px;
+    width: 440px;
+    padding:15px 0px 15px 15px;
+ }
+
+ .pimage{
+    
+     padding:0px 180px;
+     overflow: hidden;
+     
+ }
+ .dimage{
+     padding:15px 180px;
+     overflow : hidden;
+ }
+ .country{
+
+     width:160px;
+     margin: 10px 0px 0px 0px;
+}
+.cntry {
+    width :100%;
+}
+.global{
+    display:flex;
+    justify-content: space-between;
+    padding : 30px 200px;
+}
+.we-are{
+    color:rgb(32, 194, 172);
+    font-size:28px;
+    width:250px;
+   
+}
+.links{
+    display:flex;
+    flex-wrap:wrap;
+    width:600px;
+    justify-content: space-between;
+    font-size:20px;
+    
+}
+.links :hover{
+    color: rgb(30, 180, 135);
+}
+.link {
+    padding :20px;
+
+}
+.healthcare{
+    display:flex;
+    background-color: rgb(234, 255, 252);
+    padding:10px 20px 10px 25px;
+    height: 600px;
+}
+.biggest {
+    color: rgb(30, 180, 135);
+    font-size: 35px;
+    width: 500px;
+    padding-left: 200px;
+}
+.offices{
+    color :rgb(104, 103, 103);
+    padding: 8px 150px 20px 200px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.star{
+    overflow: hidden;
+    height: 60%;
+}
+.boxes{
+    display:flex;
+    flex-wrap:wrap;
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin:40px 10px 0px 10px;
+    width:200px;
+    height: 230px;
+    padding: 15px;
+}
+.box-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin:10px 10px 10px 10px;
+    width:200px;
+    height: 230px;
+    padding: 15px;
+}
+.box-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin:40px 10px 10px 10px ;
+    width:200px;
+    height: 230px;
+    padding: 15px;
+}
+.box-4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin:10px;
+    width:200px;
+    height: 230px;
+    padding: 15px;
+}
+.p-box{
+    color: rgb(32, 194, 172);
+    font-size: 25px;
+    text-align: center;
+}
+.box-p{
+    color:rgb(104, 103, 103);
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.5;
+}
+.millions{
+    text-align: center;
+    color:rgb(32, 194, 172);
+    padding:20px 20px 0px 20px ;
+    font-size: 30px;
+}
+.more-than{
+    text-align: center;
+    color:rgb(48, 48, 48);
+    font-size: 15px;
+    padding:0px 390px;
+    line-height: 1.5;
+}
+
+
+.svg {
+    fill :rgb(179, 179, 179);              
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px 180px;
+}
+.p-a {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+.photo{
+    border: solid 1px rgb(228, 228, 228);
+    border-radius: 7px;
+    margin : 10px 0px;
+}
+.warsaw{
+    color:rgb(110, 109, 109);
+    font-size: 18px;
+}
+.see-openings {
+    display:flex;
+    font-size:11px;
+    background-color: rgb(77, 140, 199);
+    border-radius: 5px;
+    width:120px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin : 12px 0px 0px 0px;
+}
+.see-openings:hover{
+    background-color: rgb(66, 106, 145);
+}
+.photo :hover{
+    box-shadow: 0 0 15px rgb(108, 110, 110);
+}
+.footr {
+    text-align: center;
+    margin: 70px 20px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+ 
+
+}
+.poland {
+    color:rgb(77, 140, 199);
+}
+.poland:hover{
+    text-decoration: underline;
+}
